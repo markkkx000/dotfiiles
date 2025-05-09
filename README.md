@@ -1,1 +1,1 @@
-# dotfiiles
+# For my configuration files
