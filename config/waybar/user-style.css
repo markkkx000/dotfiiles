@@ -1,0 +1,92 @@
+/* User custom styles */
+
+* {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+window#waybar.top .modules-left,
+window#waybar.top .modules-center,
+window#waybar.top .modules-right,
+window#waybar.bottom .modules-left,
+window#waybar.bottom .modules-center,
+window#waybar.bottom .modules-right {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: -0.75em;
+    margin-right: -0.75em;
+}
+
+/* ? Dynamic button */
+
+window#waybar.top button,
+window#waybar.bottom button {
+    margin: 0em 0em;
+    border: 0em;
+    /* padding: 0.1em 0.5em; */
+
+}
+
+/* #privacy,
+#custom-updates,
+#backlight,
+#pulseaudio {
+    font-family: 'JetBrains Mono Nerd Font';
+} */
+
+#custom-applauncher {
+    font-size: 14px;
+}
+
+#custom-separator {
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+
+#clock {
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Adwaita Sans';
+}
+
+#custom-power {
+    font-size: 14px;
+}
+
+#idle_inhibitor {
+    font-size: 14px;
+}
+
+#custom-hyde-menu {
+    font-size: 16px;
+}
+
+#privacy {
+    color: lime;
+    padding-right: 2px;
+}
+
+window.popup.csd.background > decoration {
+    background-color: transparent;
+    border-radius: 14px;
+    box-shadow: none;
+}
+
+menu {
+    border-radius: 12px;
+    border: 1px solid #555555;
+}
+
+menuitem:hover {
+    border-radius: 8px;
+}
+
+tooltip {
+    /* all: unset; */
+    border: 1px solid #555555;
+    border-radius: 1.5em;
+    /* background: @main-bg; */
+    /* color: @main-fg; */
+    /* border-width: 1em; */
+    /* border-color: transparent; */
+}
