@@ -1,0 +1,8 @@
+{
+  "custom/applauncher": {
+    "format": "󰣇",
+    "on-click": "rofi -show drun",
+    "tooltip": true,
+    "tooltip-format": "Apps"
+  }
+}
