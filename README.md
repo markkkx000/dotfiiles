@@ -6,6 +6,5 @@ just "my" configs...
 - <a href=https://www.lazyvim.org/>LazyVim</a>
 
 # Optional Packages
-- rofi
 - bigtime
 - catnap
